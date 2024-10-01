@@ -1,15 +1,15 @@
-# 第1次作業-作業-HW1
->
->學號：1234567
-><br />
->姓名：王小明
-><br />
->作業撰寫時間：180 (mins，包含程式撰寫時間)
-><br />
->最後撰寫文件日期：2023/09/22
->
+# 第 1 次作業-作業-HW1
+
+> 學號：112111207
+> <br />
+> 姓名：陳品霖
+> <br />
+> 作業撰寫時間：180 (mins，包含程式撰寫時間)
+> <br />
+> 最後撰寫文件日期：2023/09/22
 
 本份文件包含以下主題：(至少需下面兩項，若是有多者可以自行新增)
+
 - [x] 說明內容
 - [x] 個人認為完成作業須具備觀念
 
@@ -18,9 +18,9 @@
 開始寫說明，該說明需說明想法，
 並於之後再對上述想法的每一部分將程式進一步進行展現，
 若需引用程式區則使用下面方法，
-若為.cs檔內程式除了於敘述中需註明檔案名稱外，
-還需使用語法` ```語言種類 程式碼 ``` `，其中語言種類若是要用python則使用py，java則使用java，C/C++則使用cpp，
-下段程式碼為語言種類選擇csharp使用後結果：
+若為.cs 檔內程式除了於敘述中需註明檔案名稱外，
+還需使用語法` ```語言種類 程式碼 ``` `，其中語言種類若是要用 python 則使用 py，java 則使用 java，C/C++則使用 cpp，
+下段程式碼為語言種類選擇 csharp 使用後結果：
 
 ```csharp
 public void mt_getResult(){
@@ -37,29 +37,37 @@ public void mt_getResult(){
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" ...>
+  <head runat="server">
+    <meta http-equiv="Content-Type" ... />
     <title></title>
-</head>
-<body>
+  </head>
+  <body>
     <form id="form1" runat="server">
-        <div>
-        </div>
+      <div></div>
     </form>
-</body>
+  </body>
 </html>
 ```
-更多markdown方法可參閱[https://ithelp.ithome.com.tw/articles/10203758](https://ithelp.ithome.com.tw/articles/10203758)
+
+更多 markdown 方法可參閱[https://ithelp.ithome.com.tw/articles/10203758](https://ithelp.ithome.com.tw/articles/10203758)
 
 請在撰寫"說明程式與內容"該塊內容，請把原該塊內上述敘述刪除，該塊上述內容只是用來指引該怎麼撰寫內容。
 
-1. 請解釋何謂git中下列指令代表什麼？並舉個例子，同時必須說明該例子的結果。其指令有add、commit、push、fetch、pull、branch、checkout與merge。
+## 1. 請解釋何謂 git 中下列指令代表什麼？並舉個例子，同時必須說明該例子的結果。其指令有 add、commit、push、fetch、pull、branch、checkout 與 merge。
 
-Ans:
+### Ans:
 
+> add(加入)，製作一個提交(即欲推送的版本)，並讓使用者未來可將提交紀錄至客戶端的倉庫中。<br>
+> commit <br>
+> push <br>
+> fetch <Br>
+> pull <br>
+> pull <br>
+> branch <Br>
+> checkout <br>
+> merge
 
-
-2. 於專案下的檔案—**hw1.py**，撰寫註解，以說明該程式每列中之背後意義。
+## 2. 於專案下的檔案—**hw1.py**，撰寫註解，以說明該程式每列中之背後意義。
 
     該hw1.py題目如下：
 
@@ -83,33 +91,28 @@ Ans:
 
 Ans:
 
-
-
 3. 請新增檔案**hw1_2.py，**輸入一個正整數(N)，其中$1\le N \le 100000$，請將該正整數輸出進行反轉
 
-    ```
-    如輸入
-    1081
+   ```
+   如輸入
+   1081
 
-    輸出
-    1801
+   輸出
+   1801
 
-    如輸入
-    1000
+   如輸入
+   1000
 
-    輸出
-    1
-    ```
+   輸出
+   1
+   ```
 
 Ans:
-
 
 4. **[課外題]**：請找尋資料，說明何謂**單元測試**，請新增檔案**hw1_3.py**，並利用溫度計攝氏轉華氏撰寫單元測試。
 
 Ans:
 
-
-
 ## 個人認為完成作業須具備觀念
 
-開始寫說明，需要說明本次練習需學會那些觀念 (需寫成文章，需最少50字，並且文內不得有你、我、他三種文字)且必須提供完整與練習相關過程的notion筆記連結
+開始寫說明，需要說明本次練習需學會那些觀念 (需寫成文章，需最少 50 字，並且文內不得有你、我、他三種文字)且必須提供完整與練習相關過程的 notion 筆記連結
