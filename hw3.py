@@ -50,7 +50,6 @@ class TestTemperatureConversion(unittest.TestCase):
         """測試極端邊界情況"""
         result = celsius_to_fahrenheit(1e6)
         print(f"8. 攝氏 1e6 度轉換為華氏: {result} 度")
-
         result = celsius_to_fahrenheit(-1e6)
         print(f"9. 攝氏 -1e6 度轉換為華氏: {result} 度")
 
